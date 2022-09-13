@@ -189,6 +189,52 @@ color: #17283F;
   background: rgba(255, 255, 255, 0.1);
 }
 
+  /* 2tab */
+ .tab-input{
+    margin-top: 30px;
+ 
+    height: 50px;
+    width: 50%;
+    position: relative;
+   
+  }
+  .tab-input input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: rgba(217, 217, 217, 0.75);
+
+box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.21);
+border-radius: 5px;
+  }
+  .tab-input  i{
+    position: absolute;
+    top: 40%;
+    right: 0;
+  }
+  .signle-input p{
+margin-top: 10px;
+margin-bottom: 25px;
+margin-left: 10px;
+font-style: italic;
+font-weight: 300;
+font-size: 13px;
+
+color: rgba(0, 0, 0, 0.64);
+}
+
+.tab-inputs-group-area p{
+height: 25px;
+width: 25px;
+border-radius: 50%;
+background: #3DB43E;
+}
+.tab-inputs-group-area p i{
+  color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+}
   /* 3tab */
   .service-type-activity{
     margin-top: 63px;
@@ -208,6 +254,48 @@ color: #17283F;
    color: #FFFFFF;
 
   }
+ .service-type-content-bg-white{
+  background: rgba(217, 217, 217, 0.5);
+border: 0.1px solid rgba(23, 40, 63, 0.5);
+box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.21);
+border-radius: 5px;
+ }
+ .service-type-content-bg-white p{
+  font-weight: 500;
+  font-size: 14px;
+margin-top: 15px;
+  color: #17283F;
+ }
+ .total-button{
+  display: flex;
+  justify-content: end;
+ }
+ .total-button button{
+  margin-top: 27px;
+  border: none;
+  outline: none;
+  width: 406px;
+  height: 59px;
+
+  background: linear-gradient(90deg, #48CBFF 0%, #398DFF 100%);
+
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.21);
+  border-radius: 5px;
+ }
+ .service-login-button {
+  margin-top: 54px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .service-login-button button{
+  border: none;
+width: 262px;
+height: 67px;
+background: linear-gradient(90deg, #FC4A1A -21.56%, #FC4A1A -21.55%, #F7B733 113.75%);
+border-radius: 7px;
+ }
 /* ***************** One site engineer******************* */
 .remote-serve {
   margin-top: 82px;
@@ -333,7 +421,7 @@ color: #17283F;
   .sign-up-button {
     margin-top: 150px;
   }
-/* ***********tab header */
+/* ***********tab hire area header */
 .tab-header-bg{
   height:max-content;
  
@@ -344,8 +432,12 @@ color: #17283F;
    display: flex;
   flex-direction: column;
   }
-
-
+  .total-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+ 
   /* 
 ****************Engineer Steps */
   .card-button-orange .card-button {
