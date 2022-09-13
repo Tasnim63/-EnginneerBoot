@@ -188,8 +188,50 @@ color: #17283F;
   height: 93px;
   background: rgba(255, 255, 255, 0.1);
 }
+/* tab1 */
+.plus-icon {
+  margin-top: 86px;
+  margin-bottom:142px ;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.plus-icon i{
+font-size: 60px;
 
+color: rgba(217, 217, 217, 0.75);
+
+}
+.service-plus-button {
+  width: 119px;
+  font-size: 20px;
+height: 67px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(90.22deg, #48CAFF 0.37%, #48CBFF 0.38%, #3A8EFF 99.43%);
+border-radius: 7px;
+}
+.service-calculate-button {
+  width: 262px;
+  height: 67px;
+  font-size: 20px;
+
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(90deg, #FC4A1A -21.56%, #FC4A1A -21.55%, #F7B733 113.75%);
+  border-radius: 7px;
+}
   /* 2tab */
+  .tab-inputs-groups{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .tab-inputs-groups .right-icons{
+    margin-top: 40px;
+    margin-right: 10px;
+  }
  .tab-input{
     margin-top: 30px;
  
@@ -234,6 +276,44 @@ background: #3DB43E;
   color: white;
   margin-left: 5px;
   margin-top: 5px;
+}
+ .tab-inputs-group-area .tab-inputs{
+  margin-top: 30px;
+  height: 50px;
+  width: 100%;
+  position: relative;
+ 
+}
+ .tab-inputs input{
+ position: absolute;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: rgba(217, 217, 217, 0.75);
+
+  background: rgba(217, 217, 217, 0.75);
+  border-radius: 5px;
+
+}
+.tab-inputs  i{
+position: absolute;
+top: 40%;
+  right: 0;
+}
+.tab-button{
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab-button button{
+  width: 262px;
+  height: 67px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background: linear-gradient(90deg, #FC4A1A -21.56%, #FC4A1A -21.55%, #F7B733 113.75%);
+  border-radius: 7px;
 }
   /* 3tab */
   .service-type-activity{
@@ -437,7 +517,16 @@ border-radius: 7px;
     justify-content: center;
     align-items: center;
    }
- 
+ .service-buttons-area{
+  display: flex;
+  flex-direction: column;
+ }
+ .service-plus-button{
+  margin-bottom: 10px;
+ }
+ .number-top{
+  margin-top: 10px;
+ }
   /* 
 ****************Engineer Steps */
   .card-button-orange .card-button {
@@ -472,3 +561,126 @@ border-radius: 7px;
     flex-direction: column;
   }
 }
+
+
+/* **************** drowdown menu***************** */
+.dropdown-container{
+  width: 100%;
+  position: relative;
+
+  
+}
+.dropdown-click{
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 5px;
+}
+
+.dropdown-click {
+  padding: 12px;
+  font-size: 1.2rem;
+
+border: none;
+outline: none;
+
+
+transition: 0.3s;
+}
+
+
+.dropdown-links{
+  padding: 12px;
+  font-size: 1.2rem;
+background-color: rgb(204, 204, 204);
+border: none;
+outline: none;
+
+color: #0158eb;
+transition: 0.3s;
+}
+ .dropdown-list{
+position: absolute;
+transform: scaleY(0);
+transform-origin: top;
+transition: 0.3s;
+
+}
+.newListDropdown{
+  transform: scaleY(2);
+  z-index: 10;
+}
+
+
+.dropdown-container{
+  width: 200px;
+  position: relative;
+  
+}
+
+.dropdown-click{
+  border: none;
+  width: 100%;
+  background: rgba(244, 242, 242, 0.5);
+}
+
+ .dropdown-links{
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: rgb(253, 246, 246);
+border: none;
+outline: none;
+width: 100%;
+color: #0158eb;
+transition: 0.3s;
+
+}
+ .dropdown-list{
+position: absolute;
+transform: scaleY(0);
+transform-origin: top;
+transition: 0.3s;
+
+}
+.newListDropdown{
+  transform: scaleY(1);
+}
+
+/* **************** sencond drowdown menu***************** */
+.dropdown-container-rock{
+
+  position: relative;
+
+  
+}
+.dropdown-container-rock .dropdown-click-rock{
+  background: rgba(244, 242, 242, 0.5);
+  border-radius: 5px;
+}
+.dropdown-click-rock{
+  border: none;
+}
+.dropdown-click-rock:hover{
+  
+  background: rgba(240, 226, 226, 0.5);
+}
+.dropdown-click-rock, .dropdown-links-rock{
+  padding: 12px;
+  font-size:13px;
+background-color: rgb(253, 246, 246);
+border: none;
+outline: none;
+width: 100%;
+font-size: 1.2rem;
+color: #0158eb;
+transition: 0.3s;
+}
+ .dropdown-list-rock{
+position: absolute;
+transform: scaleY(0);
+transform-origin: top;
+transition: 0.3s;
+
+}
+.newListDropdown{
+  transform: scaleY(1);
+}
+
