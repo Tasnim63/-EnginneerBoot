@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EngineerBoot</title>
+    <!-- FONTS AWSOME -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <!-- BOOTSTRAP CSS FILE-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- OWN STYLE FILE -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--------------------------------
+                       Header section
+        ------------------------------>
+
+    <nav class="navbar header sticky-top navbar-expand-lg">
+      <div class="container">
+        <img class="nav_logo" src="./assets/nav-logo.png" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-stream"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item d-flex">
+              <a class="nav-link service" aria-current="page" href="#"
+                >Services
+              </a>
+              <i class="fa-solid fa-angle-down"></i>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fw-bold" aria-current="page" href="#">Login</a>
+            </li>
+          </ul>
+          <div class="nav-login">
+            <button class="btn sign-up-button text-light">
+              Engineer SignUp
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-----------------------------------------
+      Engineer Steps
+    --------------------------------------  -->
+
+    <div class="container engineer-banner">
+      <div class="headings text-center">
+        <h2>Remote Engineers</h2>
+        <h1>Hiring in Easy Steps</h1>
+        <p>" get easy and reliable solution of man power of your business"</p>
+      </div>
+
+      <div class="date-cards px-4 pt-5">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="row gx-3 gy-2">
+              <div class="col-lg-4">
+                <div
+                  class="date-card d-flex justify-content-center align-items-center"
+                >
+                  <p class="pt-2">
+                    <i
+                      class="fa-solid fa-location-dot fw-bold ms-4 me-3 date-icons"
+                    ></i>
+                    <span class="text"> Current Location </span>
+                    <i class="fa-solid fa-caret-down ms-3 fw-bold"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="date-card d-flex justify-content-center date-icons align-items-center"
+                >
+                  <p class="pt-2">
+                    <i class="fa-regular fa-calendar ms-4 me-3"></i>
+                    <span class="text"> DD/MM/YY </span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div
+                  class="date-card d-flex justify-content-center align-items-center"
+                >
+                  <p class="pt-2">
+                    <i
+                      class="fa-regular fa-clock fw-bold ms-4 me-3 date-icons"
+                    ></i>
+                    <span class="text"> 00:00 AM </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mb-3 card-button-orange">
+            <button class="btn card-button text-light">Check Slot</button>
+          </div>
+        </div>
+
+        <p class="date-card-text">
+          Update date ,time & location and get instant available
+        </p>
+      </div>
+    </div>
+
+    <!-----------------------------------------
+      Hire area
+    --------------------------------------  -->
+
+    <div class="container-fluid engineer-hire-area">
+      <div class="container nav-tab">
+        <ul class="gx-3 col-12 nav nav-tabs justify-content-around">
+          <div class="nav-logo d-flex">
+            <div class="icon"><i class="fa-solid fa-gear"></i></div>
+            <div class="logo-text"><p>Price calculator</p></div>
+          </div>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              data-bs-toggle="tab"
+              id="home-tab"
+              type="button"
+              data-bs-target="#home"
+              role="tab"
+              aria-controls="home"
+              aria-selected="true"
+              >Hire Onsite L1 Engineer</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              data-bs-toggle="tab"
+              id="profile-tab"
+              type="button"
+              data-bs-target="#prfile"
+              role="tab"
+              aria-controls="prfile"
+              aria-selected="true"
+              >New Installation & Confiuration</a
+            >
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a
+              class="nav-link"
+              data-bs-toggle="tab"
+              id="contact-tab"
+              type="button"
+              data-bs-target="#contact"
+              role="tab"
+              aria-controls="contact"
+              aria-selected="true"
+              >Upgrade,Migration & Troubleshooting</a
+            >
+          </li>
+        </ul>
+        <div class="container px-4 tab-content" id="myTabControl">
+          <div
+            class="tab-pane fade show active"
+            role="tabpanel"
+            id="home"
+            aria-labelledby="home-tab"
+          >
+            <h3>tab 111111111111111</h3>
+          </div>
+          <div
+            class="tab-pane fade show"
+            role="tabpanel"
+            id="prfile"
+            aria-labelledby="profile-tab"
+          >
+            <div class="tab-inputs-group">
+              <div class="signle-input">
+                <div class="tab-input">
+                  <input
+                    class="mx-4"
+                    type="text"
+                    placeholder="Select Types Service"
+                  />
+                  <i class="fa-solid fa-caret-down ms-3 fw-bold caretLaft"></i>
+                </div>
+                <p>You can add multiple services</p>
+              </div>
+              <div class="tab-inputs-groups">
+                <div class="tab-inputs-group-area d-flex">
+                  <p class="right-icons">
+                    <i class="fa-solid green-check fa-check"></i>
+                  </p>
+                  <div class="tab-inputs">
+                    <input
+                      class="mx-4"
+                      type="text"
+                      placeholder="Select Types Service"
+                    />
+                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
+                  </div>
+                </div>
+                <div class="tab-inputs-group-area d-flex">
+                  <p class="right-icons">
+                    <i class="fa-solid green-check fa-check"></i>
+                  </p>
+                  <div class="tab-inputs">
+                    <input
+                      class="mx-4"
+                      type="text"
+                      placeholder="Network & Security devicesInstalltion and Configuration"
+                    />
+                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
+                  </div>
+                </div>
+                <div class="tab-inputs-group-area d-flex">
+                  <p class="right-icons">
+                    <i class="fa-solid green-check fa-check"></i>
+                  </p>
+                  <div class="tab-inputs">
+                    <input
+                      class="mx-4"
+                      type="text"
+                      placeholder="Database Installtion and Configuration"
+                    />
+                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-button">
+                <button>Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show"
+            role="tabpanel"
+            id="contact"
+            aria-labelledby="contact-tab"
+          >
+          <div class="service-type-area">
+            <div class="service-type-activity">
+              <div class="row ">
+                <div class="col-lg-6">
+                  <div class="row  ">
+                    <div class="col-lg-6">
+                      <div class="service-type-content  ">
+                        <p>Service Type</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 row-gap"><div class="service-type-content  ">
+                      <p>Service Type</p>
+                    </div></div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                     <div class="row ">
+                      <div class="col-lg-4"><div class="service-type-content  text-center row-gap">
+                        <p>Model No.</p>
+                      </div></div>
+                      <div class="col-lg-4 d-flex align-content-center justify-content-center">
+                        <div class="service-type-content row-gap  text-center w-75">
+                        <p>Qty</p>
+                      </div></div>
+                      <div class="col-lg-4"><div class="service-type-content  text-center row-gap">
+                        <p>Price</p>
+                      </div></div>
+                     </div>
+                </div>
+              </div>
+
+              <div class="row mt-4">
+                <div class="col-lg-6">
+                  <div class="row ">
+                    <div class="col-lg-6">
+                      <div class="service-type-content-bg-white  row-gap">
+                        <p>Service Type</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6"> <div class="service-type-content-bg-white   row-gap">
+                      <p>Rack Unmounting</p>
+                    </div></div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                     <div class="row">
+                      <div class="col-lg-4"><div class="service-type-content-bg-white  text-center row-gap">
+                        <p>1548520</p>
+                      </div></div>
+                      <div class="col-lg-4 d-flex align-content-center justify-content-center">
+                        <div class="service-type-content-bg-white   text-center row-gap w-75">
+                        <p>15</p>
+                      </div></div>
+                      <div class="col-lg-4"><div class="service-type-content-bg-white  text-center row-gap ">
+                        <p>₹ 15000</p>
+                      </div></div>
+                     </div>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-lg-6">
+                  <div class="row ">
+                    <div class="col-lg-6">
+                      <div class="service-type-content-bg-white row-gap ">
+                        <p>Service Type</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6"> <div class="service-type-content-bg-white   row-gap">
+                      <p>Rack Unmounting</p>
+                    </div></div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                     <div class="row">
+                      <div class="col-lg-4"><div class="service-type-content-bg-white  text-center row-gap">
+                        <p>1548520</p>
+                      </div></div>
+                      <div class="col-lg-4 d-flex align-content-center justify-content-center">
+                        <div class="service-type-content-bg-white row-gap text-center w-75">
+                        <p>15</p>
+                      </div></div>
+                      <div class="col-lg-4"><div class="service-type-content-bg-white  text-center row-gap">
+                        <p>₹ 15000</p>
+                      </div></div>
+                     </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="service-activity-button">
+               <div class="total-button"><button>Total   :    ₹ 2500</button></div>
+             <div class="service-login-button">
+              <button>Login/SignUp</button>
+             </div>
+            </div>
+          </div>
+          </div>
+
+          <hr class="solid" />
+          <div
+            class="tab-footer d-flex align-items-center justify-content-between mx-4 pb-3"
+          >
+            <div class="footer-content">
+              <h3 class="footer-heading">Confused why choose us ?</h3>
+              <p class="footer-text">
+                A lot of reasons to choose us here are some of them, click on
+                the above
+              </p>
+            </div>
+            <div class="footer-link fw-bold">
+              <a href="#">Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------------------------------
+      One site engineer
+    --------------------------------------  -->
+
+    <div class="remote-engineer  pb-5">
+      <div class="remote-serve ">
+        <div class="serve-logo d-flex">
+          <div class="icon"><i class="fa-solid fa-gear "></i></div>
+          <div class="logo-text"><p>Price calculator</p></div>
+        </div>
+      </div>
+     
+        <h1 class="serve-heading text-center">Onsite and Remote Engineers</h1>
+
+        <div class=" onsite-serve-card ">
+      
+          <div class="row  mx-auto onsite-row-gap   pt-5">
+            <div class="col-lg-4 col-12  ">
+              <button class="onsite-serve1 d-flex align-items-center justify-content-center">
+                <div class="remote-button-icon d-flex mt-3">
+                  <i class="fa-solid fa-users-gear text-light mt-1 me-3"></i>
+                  <p>Hire Onsite L1 Engineer</p>
+                </div>
+              </button>
+            </div>
+            <div class="col-lg-4 col-12 ">
+              <button class="onsite-serve2 d-flex align-items-center justify-content-center">
+                <div class="remote-button-icon2 d-flex">
+                <div class="icon-circle">
+                
+                  <i class="fa-solid fa-file-contract text-light mt-3 "></i>
+                </div>
+                  <p>Upgrade, Migration & Troubleshooting</p>
+                </div>
+              </button>
+            </div>
+            <div class="col-lg-4 col-12">
+              <button class="onsite-serve2 d-flex align-items-center justify-content-center">
+                <div class="remote-button-icon2 d-flex">
+                  <div class="icon-circle ">
+                    <i class="fa-solid fa-tv text-light mt-3 "></i>
+                  </div>
+               
+                  <p>New Installation & Configuration</p>
+                </div>
+              </button>
+            </div>
+        </div>
+          <div class="  remote-access">
+            <div class="row mx-5 pb-5">
+                  <div class="col-lg-5 col-12">
+                   <div class="remote-access-card-area">
+                    <div class="remote-access-card">
+                      <p class="remote-access-contant">
+                        
+                        <i class="fa-solid fa-square-check ms-2 me-3"></i>Remote Device Access on site
+                      </p> 
+                      <p class="remote-access-contant">
+                        <i class="fa-solid fa-square-check ms-2 me-3"></i>Preventive Maintenance
+                      </p> 
+                      <p class="remote-access-contant">
+                        <i class="fa-solid fa-square-check ms-2 me-3"></i>Site Survey
+                      </p> 
+                      <p class="remote-access-contant">
+                        <i class="fa-solid fa-square-check ms-2 me-3"></i>Cablining & Connectivity
+                      </p> 
+                  </div>
+                   </div>
+                  </div>
+                  <div class="col-lg-7 pt-3 col-12 d-flex align-items-center justify-content-center ">
+                    <img class="img-fluid" src="./assets/Group.png" alt="">
+                  </div>
+            </div>
+           
+          </div>
+        </div>
+     
+    </div>
+    <!--bootstrap js files -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

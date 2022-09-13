@@ -1,0 +1,191 @@
+/* some common style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Poppins;
+  }
+  :root{
+    --bg-primary:white;
+  }
+  .btn:focus {
+    box-shadow: none;
+  }
+  img {
+    object-fit: cover;
+  }
+  /* header style */
+  .header{
+background: var(--bg-primary);
+  }
+  .nav_logo {
+    width: 150px;
+    height: 74px;
+    object-fit: cover;
+  }
+  .navbar ul {
+    width: max-content;
+    height: 60px;
+    margin-top: 9px;
+  
+    border-radius: 7px;
+    background-image: linear-gradient(to right, #52f5ff, #398cff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .navbar ul li {
+    width: 100px;
+    height: 66px;
+    line-height: 50px;
+    font-weight: 400px;
+  }
+  .nav-link {
+    color: red;
+  }
+  .sign-up-button {
+    padding: 16px 30px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background-image: linear-gradient(
+      90deg,
+      #fc4a1a -21.56%,
+      #fc4a1a -21.55%,
+      #f7b733 113.75%
+    );
+  }
+  
+/* ***************** One site engineer******************* */
+.remote-serve{
+  margin-top: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.serve-logo{
+ padding-right: 15px;
+background: #FFFFFF;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.13);
+border-radius: 21.5px;
+}
+.serve-logo p{
+  margin-left: 5px;
+  margin-top: 13px;
+  font-weight: 600;
+font-size: 12px;
+line-height: 14px;
+
+
+color: #000000;
+}
+.serve-logo .icon{
+  width: 40px;
+height: 43px;
+border-radius: 50%;
+color: white;
+background: linear-gradient(90deg, #E8691D 0%, #FDC405 82.61%);
+}
+.icon .fa-gear{
+margin-top: 11px;
+margin-left: 10px;
+font-size: 20px;
+}
+.serve-heading {
+margin-top: 10px;
+
+font-weight: 700;
+font-size: 30px;
+
+
+color: #000000;
+margin-bottom: 55px;
+}
+.onsite-serve-card{
+ width: 90%;
+ margin: 0 auto; 
+background: #FFFFFF;
+box-shadow: 0px 0px 13px 5px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+
+}
+.onsite-serve1{
+  border: none;
+
+  height: 82px;
+width: 100%;
+background: #0158EB;
+box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.1);
+border-radius: 7px;
+}
+.onsite-serve1 p{
+  font-weight: 700;
+font-size: 15px;
+
+color: #FFFFFF;
+}
+.onsite-serve2{
+  border: none;
+  width: 100%;
+  height: 82px;
+ background: #FFFFFF;
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+.onsite-serve2 .icon-circle{
+
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #1EAEEA 0%, #0056EB 95%);
+}
+.onsite-serve2 p{
+
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 17px;
+  margin-left: 5px;
+  color: #0158EB;
+  
+}
+.remote-access-contant .fa-square-check{
+  color: white;
+  background: linear-gradient(180deg, #4CD24F 0%, #3DB43E 100%);
+}
+.remote-access-contant p{
+  font-weight: 400;
+  font-size: 13.5px;
+
+  color: #000000;
+}
+.remote-access-card{
+  padding: 36px 17px;
+width:max-content;
+background: #ECEAFC;
+border-radius: 7px;
+}
+.remote-access{
+  margin-top: 96px;
+}
+  /* media query for medium screen */
+  @media screen and (max-width: 999px) {
+    .nav-login {
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+    /*   One site engineer */
+    .onsite-row-gap{
+      gap: 20px;
+    }
+    .remote-access-card-area{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+    }
+   
+  }
+ 
