@@ -188,6 +188,26 @@ color: #17283F;
   height: 93px;
   background: rgba(255, 255, 255, 0.1);
 }
+
+  /* 3tab */
+  .service-type-activity{
+    margin-top: 63px;
+  }
+  .service-type-content{
+    color: red;
+    background: #696969;
+    border: 0.1px solid rgba(23, 40, 63, 0.5);
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.21);
+    border-radius: 5px;
+  }
+  .service-type-content p{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+ 
+   color: #FFFFFF;
+
+  }
 /* ***************** One site engineer******************* */
 .remote-serve {
   margin-top: 82px;
@@ -324,6 +344,8 @@ color: #17283F;
    display: flex;
   flex-direction: column;
   }
+
+
   /* 
 ****************Engineer Steps */
   .card-button-orange .card-button {
