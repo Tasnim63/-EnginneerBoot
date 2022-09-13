@@ -45,6 +45,9 @@ li a {
 .nav-link {
   color: white;
 }
+.nav-link:hover {
+  color: white;
+}
 .sign-up-button {
   padding: 16px 30px;
   margin-left: 25px;
@@ -57,6 +60,9 @@ li a {
     #fc4a1a -21.55%,
     #f7b733 113.75%
   );
+}
+.sign-up-button:hover{
+  color: white;
 }
 /* 
 ****************Engineer Steps */
@@ -481,6 +487,73 @@ border-radius: 7px;
 .remote-access {
   margin-top: 96px;
 }
+/* ******************* chose us section************************ */
+.advantage-content{
+  width:max-content;
+height: 30px;
+
+background: #FFFFFF;
+box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.13);
+border-radius: 11.5px;
+}
+.advantage-icon {
+  border-radius: 50%;
+height: 30px;
+width: 30px;
+
+background: linear-gradient(90deg, #E8691D 0%, #FDC405 82.61%);
+}
+.advantage-icon i{
+  color: white;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+.advantage-content p{
+  margin-top: 5px;
+  padding: 0 10px;
+  font-weight: 600;
+font-size: 12px;
+color: #000000;
+}
+.engineers-advantage-content h1{
+  margin-top: 21px;
+font-weight: 700;
+font-size: 30px;
+color: #000000;
+}
+.engineers-advantage-skills{
+  width: 90%;
+  margin: 0 auto;
+}
+.engineer-advantage-card{
+margin-top: 80px;
+background: linear-gradient(102.55deg, #FFBE8F -31.88%, #FE7B1D 106.55%);
+box-shadow: 0px 0px 13px 5px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+}
+.advantage-card{
+
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px 10px rgba(78, 78, 78, 0.18);
+  border-radius: 7px;
+}
+.advantage-card i{
+padding-top: 36px;
+font-size: 100px;
+}
+/**********************************  proven word ************************/
+.proven-work-container{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(116.29deg, #DCF0FF 33.47%, rgba(220, 240, 255, 0) 100%);
+  box-shadow: 0px 0px 13px 5px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+}
+.proven-work-container  .paragraph{
+margin-top: -30px;
+}
 /* media query for medium screen */
 @media screen and (max-width: 999px) {
   .nav-link {
@@ -683,4 +756,12 @@ transition: 0.3s;
 .newListDropdown{
   transform: scaleY(1);
 }
+
+
+
+
+
+
+
+
 
